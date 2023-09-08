@@ -27,10 +27,4 @@ class aclient(discord.Client):
                 try: await message.author.send("You have been muted for spamming")
                 except : pass
 client = aclient()
-
-import os
-from dotenv import load_dotenv
-load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
-
-client.run(TOKEN)
+client.run('MTEzNzAxNDkwMzExOTU1NjY3OA.GwkAtv.YYYFmF21Pb5ewx1T1PeoQXtmhG1O1ZIdEazD78')
