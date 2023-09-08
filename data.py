@@ -1,0 +1,1 @@
+bad_words=['asshole','bitch','fuck','wanker','faggot','arsehole','retard','dumbass','whore','slut','chutiya','randi','laude','lawde','cock','pussy','butthole','butt-hole','gaand']
