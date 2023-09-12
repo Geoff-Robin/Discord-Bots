@@ -1,6 +1,8 @@
 import discord
 from discord.ext import commands
 import random
+#Enter your bot token as a string
+bot_token=''
 truths=[]
 dares=[]
 data=open('data.txt')
@@ -63,4 +65,4 @@ async def d(ctx):
     i=random.randint(-1,count2)
     mes=dares[i]
     await ctx.send(mes)
-mybot.run('MTEzNzAxNDkwMzExOTU1NjY3OA.GwkAtv.YYYFmF21Pb5ewx1T1PeoQXtmhG1O1ZIdEazD78')
+mybot.run(bot_token)
