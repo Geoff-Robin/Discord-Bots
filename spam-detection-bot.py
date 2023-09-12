@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
 from datetime import timedelta
-
+#give bot token as a string
+bot_token=''
 class aclient(discord.Client):
     def __init__(self):
         intents = discord.Intents.default()
@@ -27,4 +28,4 @@ class aclient(discord.Client):
                 try: await message.author.send("You have been muted for spamming")
                 except : pass
 client = aclient()
-client.run('MTEzNzAxNDkwMzExOTU1NjY3OA.GwkAtv.YYYFmF21Pb5ewx1T1PeoQXtmhG1O1ZIdEazD78')
+client.run(bot_token)
